@@ -1,0 +1,28 @@
+<html>
+
+    <head>
+        <link rel="stylesheet" type="text/css" href="mainstyle.css">
+        <title>Hang Man</title>
+    </head>
+
+    <body>
+
+        <div class="logo">
+            <a href="homepage.html"><img src = "snoopy4.jpg"></a>
+            <h1>Hang-Man</h1>
+        </div>
+
+        <hr>
+
+        <h1>HangMan</h1>
+
+        <div id="word"></div>
+        <div id="guesses">Guesses left: 5</div>
+        <input type="text" id="letterInput" maxlength="1" autofocus>
+        <button onclick="guessLetter()" id="guessButton">Guess</button>
+        <button onclick="startRound()" id="startButton">Start</button>
+        <p id="message"></p>
+
+        <script src = "hangMan.js"></script>
+    </body>
+</html>
