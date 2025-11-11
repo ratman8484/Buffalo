@@ -1,0 +1,177 @@
+body {
+    font-family: "Press Start 2P", system-ui;
+    background: linear-gradient(to right, blue 0%, blue 11.8%, black 11.8%, black 12%, white 12%, white 88%, black 88%, black 88.2%, blue 88.2%, blue 100%);
+    margin-left: 16%;
+    margin-right: 16%;   
+    color: black;
+}
+
+h1 {
+    color: blue;
+}
+
+hr {
+    width: auto;
+    height: 4px;
+    background-color: black;
+    border: nonew;
+    margin: 20px auto
+}
+@font-face {
+    font-family: 'Press Start 2P';
+    src: url('Press_Start_2P/PressStart2P-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+table {
+    border: 2px solid black;
+    border-collapse: collapse;
+    display: block;
+}
+
+tr {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 0;
+}
+
+th {
+    border: 1px solid black;
+    color: red;
+    font-size: larger;
+}
+
+td {
+    font-size: 14px;
+    border: 1px solid black;
+    min-width: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    height: 20px;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.parRight img {
+    float: none;
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    max-width: 500px;
+    max-height: 400px;
+}
+
+.imgTextBlock {
+    display: flex;
+    align-items: flex-start;  /* Aligns top of text with top of image */
+    margin-bottom: 30px;
+    margin-top: 20px;
+    font-size: 25px;
+    gap: 20px;  /* Adds space between image and text */
+}
+
+.imgTextBlock img {
+    max-width: 300px;
+    height: auto;
+    border: 3px black solid;
+}
+
+.logo {
+    display: flex;
+    align-items: flex-start;  /* Aligns top of text with top of image */
+    margin-top: 20px;
+    font-size: 15px;
+    gap: 15px;  /* Adds space between image and text */
+}
+
+.logo img {
+    width: 75px;
+    height: auto;
+}
+
+#title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.calculator {
+    background-color: rgb(64, 64, 64);
+    border-radius: 15px;
+    max-width: 500px;
+    overflow: hidden;
+}
+
+.calculator #display {
+    width: 100%;
+    padding: 20px;
+    font-size: 5rem;
+    text-align: left;
+    border: none;
+    background-color: rgb(89, 88, 88);
+}
+
+.calculator #keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr) ;
+    padding: 20px;
+    gap: 5px;
+}
+
+#guessButton {
+    all: unset;
+    width: auto;
+    height: auto;
+    color: black;
+    background-color: grey;
+}
+
+#guessButton:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+
+#startButton {
+    all: unset;
+    width: auto;
+    height: auto;
+    color: black;
+    background-color: grey;
+}
+
+#startButton:hover {
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.calculator button:hover {
+    background-color: rgb(139, 139, 139);
+}
+.calculator button:active {
+    background-color: rgb(150, 150, 150);
+}
+
+
+.calculator .opKey {
+    background-color: rgb(170, 111, 0);
+}
+.calculator .opKey:hover {
+    background-color: rgb(183, 119, 0);
+}
+.calculator .opKey:active {
+    background-color: rgb(201, 131, 1);
+}
+
+.calculator button {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: none;
+    background-color: gray;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    cursor: pointer;
+}
